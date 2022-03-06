@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal information</title>
+</head>
+<body>
+    <form action="script.php" method="post" name="demo_form">
+    <fieldset>
+        <legend> Personal information:</legend>
+        <label for="text"> Your full name:</label> 
+        <input type="text" name="name" id="name">
+		<br><br>
+
+        <label for="text"> E-mail address:</label> 
+        <input type="text" name="e-mail" id="e-mail">
+		<br><br>
+        <label for="text"> You are: </label>
+      
+
+        <select name="country" id="country">
+        <option value="Romania">Romania</option>
+        <option value="Serbia">Serbia</option>
+        <option value="Bosnia">Bosnia</option>
+        </select>
+    </fieldset>
+
+    <fieldset>
+        <legend>Reasons you are contacting us:</legend>
+        <input name="text" type="radio" id="I would like detailed information" value="I would like detailed information"
+        <label for="I would like detailed information">I would like detailed information</label>
+
+        <br>
+
+        <input name="text" type="radio" id="I am interested in employment" value="I am interested in employment"
+        <label for="I am interested in employment">I am interested in employment</label>
+
+        <br>
+
+        <input name="text" type="radio" id="I would like to give yoy my feedback" value="I would like to give yoy my feedback"
+        <label for="I would like to give yoy my feedback">I would like to give yoy my feedback</label>
+
+        <br>
+
+        <input name="text" type="radio" id="Other (see below)" value="Other (see below)"
+        <label for="Other (see below)">Other (see below)</label>
+
+    </fieldset>
+</form>   
+   
+<label for="comments">Comments:</label>
+
+<textarea name="comments" id="comments"></textarea>
+
+<br>
+
+<input type="submit" value="Send">
+
+<br>
+
+</body>
+</html>
